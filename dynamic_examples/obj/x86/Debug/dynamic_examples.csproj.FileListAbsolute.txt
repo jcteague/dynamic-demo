@@ -1,1 +1,8 @@
 C:\Users\John\Code\dynamic\dynamic_examples\bin\Debug\dynamic_examples.exe.config
+C:\Users\John\Code\dynamic\dynamic_examples\bin\Debug\dynamic_examples.exe
+C:\Users\John\Code\dynamic\dynamic_examples\bin\Debug\dynamic_examples.pdb
+C:\Users\John\Code\dynamic\dynamic_examples\bin\Debug\nunit.framework.dll
+C:\Users\John\Code\dynamic\dynamic_examples\bin\Debug\nunit.framework.xml
+C:\Users\John\Code\dynamic\dynamic_examples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Code\dynamic\dynamic_examples\obj\x86\Debug\dynamic_examples.exe
+C:\Users\John\Code\dynamic\dynamic_examples\obj\x86\Debug\dynamic_examples.pdb
