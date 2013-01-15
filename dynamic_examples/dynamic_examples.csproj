@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicObject\ListBag.cs" />
+    <Compile Include="DynamicObject\DynamicListTests.cs" />
     <Compile Include="Expando\ExpandoPropertyNotfiier.cs" />
     <Compile Include="Expando\ExpandoSamples.cs" />
     <Compile Include="Program.cs" />
