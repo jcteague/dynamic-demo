@@ -1,0 +1,16 @@
+syntax: glob
+release/
+build/
+log/
+*.suo
+*.TMP
+*.user
+bin
+Bin
+!/bin
+obj
+*ReSharper*
+*.csproj.user
+*.resharper.user
+*.suo
+*.cache
