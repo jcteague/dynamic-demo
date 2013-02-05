@@ -12,7 +12,7 @@ namespace dynamic_examples.Expando
         [SetUp]
         public void SetUp()
         {
-            
+       
             eo.FirstName = "Mark";
             eo.LastName = "Wahlburg";
             eo.CatchPhrase = "Say Hi to your Mother for me.";
@@ -33,7 +33,8 @@ namespace dynamic_examples.Expando
             eo.LastName = "Wahlburg";
             eo.CatchPhrase = "Say Hi to your Mother for me.";
             eo.FullName = eo.FirstName + " " + eo.LastName;
-            eo.Greet = new Func<string, string>((string person) => String.Format("Hi {0}, I'm {1}. {2}", person,eo.FullName, eo.CatchPhrase));
+            eo.Greet = new Func<string, string>((string person) => 
+                String.Format("Hi {0}, I'm {1}. {2}", person,eo.FullName, eo.CatchPhrase));
             Console.WriteLine(eo.Greet("Andy"));
         }
     }

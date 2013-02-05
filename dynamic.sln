@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic_examples", "dynamic_examples\dynamic_examples.csproj", "{3EAFC3EB-9C30-40E5-956B-3E17FB7678F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptLoader", "ScriptLoader\ScriptLoader.csproj", "{5B5FF0AB-5EBF-44EC-B39F-DFB9A2CCAAFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{3EAFC3EB-9C30-40E5-956B-3E17FB7678F1}.Debug|x86.Build.0 = Debug|x86
 		{3EAFC3EB-9C30-40E5-956B-3E17FB7678F1}.Release|x86.ActiveCfg = Release|x86
 		{3EAFC3EB-9C30-40E5-956B-3E17FB7678F1}.Release|x86.Build.0 = Release|x86
+		{5B5FF0AB-5EBF-44EC-B39F-DFB9A2CCAAFE}.Debug|x86.ActiveCfg = Debug|x86
+		{5B5FF0AB-5EBF-44EC-B39F-DFB9A2CCAAFE}.Debug|x86.Build.0 = Debug|x86
+		{5B5FF0AB-5EBF-44EC-B39F-DFB9A2CCAAFE}.Release|x86.ActiveCfg = Release|x86
+		{5B5FF0AB-5EBF-44EC-B39F-DFB9A2CCAAFE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

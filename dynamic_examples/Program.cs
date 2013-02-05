@@ -8,11 +8,15 @@ namespace dynamic_examples {
     class Program {
         static void Main(string[] args)
         {
-            IEnumerable<dynamic> list = new List<dynamic>();
+            dynamic x = 10;
+            x = x + 9.5;
+            //19.520
+            x += "20";
+
+            x = Double.Parse(x) + 9;
+            Console.WriteLine(x);
+            Console.WriteLine(x.GetType());
         }
-        public static void do_something(IEnumerable<dynamic> dyn_list)
-        {
-            
-        }
+        
     }
 }

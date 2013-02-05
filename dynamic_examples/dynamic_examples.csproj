@@ -39,6 +39,7 @@
       <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,6 +52,9 @@
     <Compile Include="DynamicObject\DynamicListTests.cs" />
     <Compile Include="Expando\ExpandoPropertyNotfiier.cs" />
     <Compile Include="Expando\ExpandoSamples.cs" />
+    <Compile Include="Massive\Massive.cs" />
+    <Compile Include="Massive\MassiveExamples.cs" />
+    <Compile Include="Massive\Repositories.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,9 +62,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Massive\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

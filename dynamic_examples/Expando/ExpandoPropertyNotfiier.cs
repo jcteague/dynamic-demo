@@ -30,8 +30,8 @@ namespace dynamic_examples.Expando
         }
         void OnExpandoPropertyChanged(object sender,PropertyChangedEventArgs args)
         {
-            var sender_eo = (IDictionary<string,Object>) sender;
-            Console.WriteLine("{0} set to {1}", args.PropertyName, sender_eo[args.PropertyName] );
+            var sender_dict = (IDictionary<string,Object>) sender;
+            Console.WriteLine("{0} set to {1}", args.PropertyName, sender_dict[args.PropertyName] );
         }
         [Test]
         public void notify_property_changed()

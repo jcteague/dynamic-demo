@@ -1,12 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Dynamic;
 using System.Linq.Expressions;
 
 namespace dynamic_examples.DynamicObjectSamples
 {
-    public class ListBag : DynamicObject
+    public class ListBag : DynamicObject, IEnumerable
     {
+        
         IDictionary<string,object> _dict = new Dictionary<string,object>();
         IList<object> _list = new List<object>();
         public ListBag(){}
@@ -16,6 +18,7 @@ namespace dynamic_examples.DynamicObjectSamples
         }
         public override bool TrySetMember(SetMemberBinder binder, object value)
         {
+            
             AddMember(binder.Name, value);
             return true;
         }
@@ -59,6 +62,10 @@ namespace dynamic_examples.DynamicObjectSamples
             }
 
         }
-        
+
+        public IEnumerator GetEnumerator()
+        {
+            return _dict.GetEnumerator();
+        }
     }
 }
